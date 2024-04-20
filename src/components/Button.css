@@ -1,0 +1,16 @@
+.btn{
+  background-color: #FF5757;
+  border-radius: 10px;
+}
+.btn--small{
+  padding: 5px 10px;
+}
+
+.btn--large{
+  padding: 9px 15px;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 1px solid #FF5757;
+
+}
