@@ -24,30 +24,32 @@ function HeroSection() {
       </div>
 
 
-      <div className="footerWrapper bg-[#161616] text-[#fff] py-6" id='footer'>
+      <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px]" id='footer'>
         <div className="container mx-auto">
-          <div className="footer flex justify-between gap-[100px] py-6">
+          <div className="footer flex justify-between gap-[100px] py-6 max-[520px]:flex-col">
 
-            <div className='companyDetails basis-2/4'>
+          <div className='companyDetails basis-2/4'>
               <div className="logo">
                       <Link to="/">
                         <h3 className="logoName text-[23px] font-bold">Cherry Media<span className="text-[#ff5757] text-3xl">.</span></h3>
                       </Link>
               </div>
               
-              <div className="details">
+              <div className="details my-3">
                 <p className='text-[#838383]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, recusandae!</p>
               </div>
 
-              <div className="socialIcons">
-
+              <div className="socialIcons flex justify-start gap-[10px]">
+                  <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-linkedin" /></Link>
+                  <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-x-twitter" /></Link>
+                  <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-instagram" /></Link>
               </div>
 
             </div>
 
             <div className='findUs basis-2/4'>
               <div className="footerHeading">
-                <h3 className='font-bold text-[23px]'>Find Us</h3>
+                <h3 className='font-bold text-[1.5rem]'>Find Us</h3>
               </div>
               <div className="address my-3">
                 <h6 className=''>Address:</h6>
@@ -64,18 +66,18 @@ function HeroSection() {
               </div>
             </div>
 
-            <div className='contactUs basis-3/4'>
+            <div className='contactUs 3/4'>
 
-              <div className="footerHeading"><h3 className='font-bold text-[23px]'>Contact Us</h3></div>
+              <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem]'>Contact Us</h3></div>
 
-              <div className="nameInput my-3">
-                  <input className='py-3 px-2 rounded-[2px] me-2 focus:outline-none text-[#838383]' type="text" placeholder='First Name'/>
+              <div className="nameInput my-3 flex justify-center max-[520px]:justify-between max-[520px]:flex-col max-[520px]:gap-[20px]">
+                  <input className='py-3 px-2 rounded-[2px] me-2 focus:outline-none text-[#838383] max-[520px]:m-0' type="text" placeholder='First Name'/>
                   <input className='py-3 px-2 rounded-[2px] focus:outline-none text-[#838383]' type="text" placeholder='Last Name'/>
               </div>
-              <div className="experienceInput">
-                  <textarea className='py-3 px-2 rounded-[2px] focus:outline-none text-[#838383]' rows='5' cols='45' type="text" placeholder='Your Experience!'/>
+              <div className="experienceInput text-center my-4">
+                  <textarea className='py-3 px-2 rounded-[2px] focus:outline-none text-[#838383] max-[520px]:w-[100%]' type="text" placeholder='Your Experience!'/>
               </div>
-              <button className='btn my-3 focus:outline-none hover:text-[#fff]' >Submit</button>
+              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' >Submit</button>
             </div>
           </div>
         </div>
