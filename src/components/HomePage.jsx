@@ -11,7 +11,7 @@ function HeroSection() {
               <h1 className='text-6xl font-extrabold max-[978px]:text-5xl'>Build Authority.</h1>
               <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl'>Monetize <span className='text-[#ff5757]'>Your LinkedIn</span>.</h2>
               <p className='w-[70%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
-              <button><Link to='/'  className='btn'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
+              <button><Link to='/'  className='btn hover:bg-transparent hover:border hover:border-[#ff5757] hover:text-[#ff5757]'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
             </div>
 
             <div className="heroImgWrapper max-[978px]:hidden">
