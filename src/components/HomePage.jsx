@@ -16,6 +16,8 @@ function HeroSection() {
 
             <div className="heroImgWrapper max-[978px]:hidden">
               <img className='heroImg absolute top-0 right-0' src="images/hero-image 1.png" alt="" />
+              <img className='absolute top-0 right-[30%]' src="images/test1.png" alt="" />
+              <img className='absolute bottom-[-20px] right-[1%]' src="images/test1.png" alt="" />
             </div>
           </div>
         </div>
