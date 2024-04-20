@@ -5,7 +5,7 @@ import "./Header.css";
 const menuItems = [
   {
     label: "Home",
-    url: "",
+    url: "#footer",
   },
   {
     label: "About Us",

@@ -5,3 +5,8 @@
     color: #fff;
     font-weight: 600;
 }
+.btn:hover{
+  background-color: transparent;
+  color: #ff5757;
+  border: 1px solid #ff5757;
+}
