@@ -16,7 +16,6 @@
   flex-direction: column;
   font-family: "Sora", sans-serif;
   max-width: 991px;
-  min-width: 320px;
   margin: 50px auto;
   padding: 0 50px;
 }

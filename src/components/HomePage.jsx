@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 function HeroSection() {
   return (
     <>
-      <div className="heroSectionWrapper">
+      <div className="heroSectionWrapper max-[420px]:py-2">
         <div className="container mx-auto">
-          <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px]">
+          <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px] max-[420px]:h-[100%]">
             <div className="heroText w-[70%] max-[978px]:text-center max-[978px]:w-[100%]">
-              <h1 className='text-6xl font-extrabold max-[978px]:text-5xl'>Build Authority.</h1>
-              <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl'>Monetize <span className='text-[#ff5757]'>Your LinkedIn</span>.</h2>
+              <h1 className='text-6xl font-extrabold max-[978px]:text-5xl max-[420px]:text-xl max-[420px]:leading-none'>Build Authority.</h1>
+              <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize <span className='text-[#ff5757] max-[420px]:leading-none'>Your LinkedIn</span>.</h2>
               <p className='w-[70%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
               <button><Link to='/' className='btn hover:bg-transparent'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
             </div>
@@ -23,26 +23,26 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="aboutUswrapper">
+      <div className="aboutUswrapper py-6">
         <div className="container mx-auto">
           <div className="aboutUs">
-            <div className="aboutUsHeading text-center w-[870px] mx-auto py-6">
+            <div className="aboutUsHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
               <h2 className='text-[33px] font-extrabold'>About Us</h2>
-              <p>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+              <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
             </div>
 
-            <div className="aboutUsItems flex justify-between gap-[35px] py-6">
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+            <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
