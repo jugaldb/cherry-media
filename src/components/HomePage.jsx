@@ -23,6 +23,34 @@ function HeroSection() {
         </div>
       </div>
 
+      <div className="aboutUswrapper">
+        <div className="container mx-auto">
+          <div className="aboutUs">
+            <div className="aboutUsHeading text-center w-[870px] mx-auto py-6">
+              <h2 className='text-[33px] font-extrabold'>About Us</h2>
+              <p>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+            </div>
+
+            <div className="aboutUsItems flex justify-between gap-[35px] py-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+                <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
+              </div>
+
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+                <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
+              </div>
+
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff]">
+                <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="FAQwrapper py-6">
         <div className="container mx-auto">
