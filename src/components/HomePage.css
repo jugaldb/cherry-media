@@ -91,3 +91,37 @@ border-radius: 0px 7px;
       font-size: 22px;
   }
 }
+
+
+
+
+.testimonial-slider {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.testimonial {
+  width: 60%;
+  transition: transform 0.5s ease;
+}
+
+.dots {
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}

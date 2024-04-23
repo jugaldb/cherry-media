@@ -59,6 +59,42 @@ function HeroSection() {
         </div>
       </div>
 
+      <div className="achivmentWrapper py-6">
+        <div className="container mx-auto">
+          <div className="achivmentHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
+            <h3 className='text-[33px] font-extrabold'>Our Achievement</h3>
+            <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+          </div>
+
+          <div className="achievements flex justify-around py-6 max-[978px]:flex-col max-[978px]:gap-[25px]">
+
+            <div className="achievement text-center">
+              <i class="fa-regular fa-copy text-[40px]  hover:text-[#ff5757]" />
+              <h6 className='text-[23px] font-extrabold'>1000+</h6>
+              <p>Client Served</p>
+            </div>
+
+            <div className="achievement text-center">
+              <i class="fa-solid fa-file-circle-check text-[40px] hover:text-[#ff5757]" />
+              <h6 className='text-[23px] font-extrabold'>1100+</h6>
+              <p>Positive Reviews</p>
+            </div>
+
+            <div className="achievement text-center">
+              <i class="fa-solid fa-face-smile text-[40px] hover:text-[#ff5757]" />
+              <h6 className='text-[23px] font-extrabold'>100+</h6>
+              <p>Team Members</p>
+            </div>
+
+            <div className="achievement text-center">
+              <i class="fa-solid fa-group-arrows-rotate text-[40px] hover:text-[#ff5757]" />
+              <h6 className='text-[23px] font-extrabold'>1500+</h6>
+              <p>Project Completed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="testimonialWrapper py-6">
         <div className="container mx-auto">
           <div className="testi-heading text-center py-6">
