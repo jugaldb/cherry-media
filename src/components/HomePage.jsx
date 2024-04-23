@@ -1,7 +1,14 @@
 import React from 'react'
-import './HomePage.css'
+
 import { Link } from 'react-router-dom'
+import "./HomePage.css"
+import TestimonialSlider from './Testimonal';
+
+
 function HeroSection() {
+
+
+  
   return (
     <>
       <div className="heroSectionWrapper max-[420px]:py-2">
@@ -46,11 +53,20 @@ function HeroSection() {
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
-              
+
             </div>
           </div>
         </div>
       </div>
+
+      <div className="testimonialWrapper py-6">
+        <div className="container mx-auto">
+          <div className="testi-heading text-center py-6">
+            <h3 className='text-[33px] font-extrabold'>Testimonials</h3>
+          </div>
+          <TestimonialSlider />
+        </div>  
+      </div>      
 
       <div className="FAQwrapper py-6">
         <div className="container mx-auto">
@@ -91,7 +107,7 @@ function HeroSection() {
       </div>
 
 
-      <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px]" id='footer'>
+      <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px]">
         <div className="container mx-auto">
           <div className="footer flex justify-between gap-[100px] py-6 max-[520px]:flex-col">
 
@@ -107,9 +123,9 @@ function HeroSection() {
               </div>
 
               <div className="socialIcons flex justify-start gap-[10px]">
-                <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-linkedin" /></Link>
-                <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-x-twitter" /></Link>
-                <Link className='hover:text-[#ff5757]' to='/'><i class="fa-brands fa-instagram" /></Link>
+                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-linkedin" /></Link>
+                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-x-twitter" /></Link>
+                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-instagram" /></Link>
               </div>
 
             </div>
@@ -153,4 +169,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection
+export default HeroSection;
