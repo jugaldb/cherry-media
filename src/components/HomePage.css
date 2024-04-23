@@ -4,6 +4,8 @@
     border-radius: 4px;
     color: #fff;
     font-weight: 600;
+    border: 1px solid #ff5757;
+
 }
 .btn:hover{
   background-color: transparent;

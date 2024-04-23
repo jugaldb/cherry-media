@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./HomePage.css"
 import TestimonialSlider from './Testimonal';
+import Timeline from './Timeline';
 
 
 function HeroSection() {
@@ -68,30 +69,40 @@ function HeroSection() {
 
           <div className="achievements flex justify-around py-6 max-[978px]:flex-col max-[978px]:gap-[25px]">
 
-            <div className="achievement text-center">
+            <div className="achievement text-center max-[978px]:basis-1/4">
               <i class="fa-regular fa-copy text-[40px]  hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1000+</h6>
               <p>Client Served</p>
             </div>
 
-            <div className="achievement text-center">
+            <div className="achievement text-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-file-circle-check text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1100+</h6>
               <p>Positive Reviews</p>
             </div>
 
-            <div className="achievement text-center">
+            <div className="achievement text-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-face-smile text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>100+</h6>
               <p>Team Members</p>
             </div>
 
-            <div className="achievement text-center">
+            <div className="achievement text-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-group-arrows-rotate text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1500+</h6>
               <p>Project Completed</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="timelineWrapper">
+        <div className="container mx-auto">
+          <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
+            <h3 className='text-[33px] font-extrabold'>Our Process</h3>
+            <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus ducimus commodi amet laudantium omnis similique minus, nihil, corporis, enim dolores sit! Nam consequuntur a earum autem, quaerat enim ad?</p>
+          </div>
+          <Timeline />
         </div>
       </div>
 
@@ -199,7 +210,22 @@ function HeroSection() {
               <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' >Submit</button>
             </div>
           </div>
+
+
+
+
+
+          <div className="copyrightInfo flex justify-between">
+            <div className="socialIcons flex justify-start gap-[10px]">
+                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-linkedin" /></Link>
+                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-x-twitter" /></Link>
+                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-instagram" /></Link>
+            </div>
+            <div className="copyRight">Copyright &copy; Cherry Media</div>
+          </div>
         </div>
+
+      
       </div>
     </>
   )

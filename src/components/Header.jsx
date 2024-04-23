@@ -60,13 +60,13 @@ function Header() {
 
 
           {isMobile && (
-                <div className="responsiveIcons menu-toggle max-[978px]:absolute max-[978px]:right-2" onClick={toggleMenu}>
+                <div className="responsiveIcons menu-toggle max-[978px]:absolute max-[978px]:right-2 z-20" onClick={toggleMenu}>
                   <i className={showMenu ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
             )}
 
           { (!isMobile || showMenu) && (
-              <ul className="menuList flex justify-between gap-[20px] max-[978px]:flex-col" >
+              <ul className="menuList flex justify-between gap-[20px] max-[978px]:flex-col max-[978px]:absolute max-[978px]:bg-[#fff] max-[978px]:right-0 max-[978px]:rounded-lg max-[978px]:py-[15px] max-[978px]:px-[16px] max-[978px]:z-10" >
                 {menuItems.length &&
                  menuItems.map((item, index) => {
                    return (
