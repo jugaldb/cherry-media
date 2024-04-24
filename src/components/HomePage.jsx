@@ -17,7 +17,7 @@ function HeroSection() {
           <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px] max-[420px]:h-[100%]">
             <div className="heroText w-[70%] max-[978px]:text-center max-[978px]:w-[100%]">
               <h1 className='text-6xl font-extrabold max-[978px]:text-5xl max-[420px]:text-xl max-[420px]:leading-none'>Build Authority.</h1>
-              <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize <span className='text-[#ff5757] max-[420px]:leading-none'>Your LinkedIn</span>.</h2>
+              <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize Your <span className='text-[#ff5757] max-[420px]:leading-none'>LinkedIn</span>.</h2>
               <p className='w-[70%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
               <button><Link to='/' className='btn hover:bg-transparent'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
             </div>
@@ -31,7 +31,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="aboutUswrapper py-6">
+      <div className="aboutUswrapper py-6" id='aboutUs'>
         <div className="container mx-auto">
           <div className="aboutUs">
             <div className="aboutUsHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
@@ -106,7 +106,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="testimonialWrapper py-6">
+      <div className="testimonialWrapper py-6" id='testimonial'>
         <div className="container mx-auto">
           <div className="testi-heading text-center py-6">
             <h3 className='text-[33px] font-extrabold'>Testimonials</h3>
@@ -115,7 +115,7 @@ function HeroSection() {
         </div>  
       </div>      
 
-      <div className="FAQwrapper py-6">
+      <div className="FAQwrapper py-6" id='services'>
         <div className="container mx-auto">
           <div className="accordion">
             <h1 className='py-6 font-extrabold'>Frequently Asked Questions</h1>
@@ -169,11 +169,6 @@ function HeroSection() {
                 <p className='text-[#838383]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, recusandae!</p>
               </div>
 
-              <div className="socialIcons flex justify-start gap-[10px]">
-                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-linkedin" /></Link>
-                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-x-twitter" /></Link>
-                <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-instagram" /></Link>
-              </div>
 
             </div>
 
@@ -183,16 +178,16 @@ function HeroSection() {
               </div>
               <div className="address my-3">
                 <h6 className=''>Address:</h6>
-                <p className='text-[#838383]'>Lorem ipsum dolor sit amet.</p>
+                <p className='text-[#838383]'>Block 2 - 1202, My Home Vihanga, My Home Vihanga Road, GachiBowli, Hyderabad, 500032</p>
               </div>
               <div className="email">
                 <h6 className=''>E-mail:</h6>
-                <p className='text-[#838383]'>hello@cherrymedia.com</p>
+                <p className='text-[#838383]'>contact@muskanagarwal.co.in</p>
               </div>
 
               <div className="phone my-3">
                 <h6 className=''>Phone No:</h6>
-                <p className='text-[#838383]'>+91 111 222 333</p>
+                <p className='text-[#838383]'>+91-70818 27226</p>
               </div>
             </div>
 
@@ -207,7 +202,7 @@ function HeroSection() {
               <div className="experienceInput text-center my-4">
                 <textarea className='py-3 px-2 rounded-[2px] w-[100%] focus:outline-none text-[#838383] max-[520px]:w-[100%]' type="text" placeholder='Your Experience!' />
               </div>
-              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' >Submit</button>
+              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' ><Link to='/'>Submit</Link></button>
             </div>
           </div>
 
@@ -217,9 +212,9 @@ function HeroSection() {
 
           <div className="copyrightInfo flex justify-between">
             <div className="socialIcons flex justify-start gap-[10px]">
-                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-linkedin" /></Link>
-                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-x-twitter" /></Link>
-                  <Link className='hover:text-[#ff5757]' to='/'><i className="fa-brands fa-instagram" /></Link>
+                  <Link className='hover:text-[#0077B5] text-[20px]' to='https://www.linkedin.com/company/cherrymediahouse/' target="_blank"><i className="fa-brands fa-linkedin" /></Link>
+                  <Link className='hover:text-[#000] text-[20px]' to='https://twitter.com/TheCherryMediaa'  target="_blank"><i className="fa-brands fa-x-twitter" /></Link>
+                  <Link className='text-[20px]' to='/' target="_blank"><i className="fa-brands fa-instagram" /></Link>
             </div>
             <div className="copyRight">Copyright &copy; Cherry Media</div>
           </div>

@@ -5,19 +5,19 @@ import "./Header.css";
 const menuItems = [
   {
     label: "Home",
-    url: "#footer",
+    url: "/",
   },
   {
     label: "About Us",
-    url: "",
+    url: "#aboutUs",
   },
   {
     label: "Services",
-    url: "",
+    url: "#services",
   },
   {
     label: "Testimonials",
-    url: "",
+    url: "#testimonial",
   },
 ];
 
@@ -51,7 +51,7 @@ function Header() {
   return (
     // after:absolute after:w-[8px] after:h-[8px] after:rounded after:bg-[#FF5757] after:bottom-[10px] after:right-[-9px] max-[978px]:after:bottom-[25%]
     
-        <div className="container mx-auto flex justify-between py-4">
+        <div className="container mx-auto flex justify-between py-[25px] items-center">
           <div className="logo relative">
             <Link to="/">
              <h3 className="logoName text-[23px] font-bold">Cherry Media<span className="text-[#ff5757] text-3xl">.</span></h3>
@@ -61,12 +61,12 @@ function Header() {
 
           {isMobile && (
                 <div className="responsiveIcons menu-toggle max-[978px]:absolute max-[978px]:right-2 z-20" onClick={toggleMenu}>
-                  <i className={showMenu ? 'fas fa-times' : 'fas fa-bars'} />
+                  <i className={showMenu ? 'fas fa-times text-[22px]' : 'fas fa-bars text-[22px]'} />
                 </div>
             )}
 
           { (!isMobile || showMenu) && (
-              <ul className="menuList flex justify-between gap-[20px] max-[978px]:flex-col max-[978px]:absolute max-[978px]:bg-[#fff] max-[978px]:right-0 max-[978px]:rounded-lg max-[978px]:py-[15px] max-[978px]:px-[16px] max-[978px]:z-10" >
+              <ul className="menuList flex justify-between gap-[20px] max-[978px]:flex-col max-[978px]:absolute max-[978px]:bg-[#fff] max-[978px]:right-0 max-[978px]:top-0 max-[978px]:rounded-lg max-[978px]:py-[15px] max-[978px]:px-[16px] max-[978px]:z-10" >
                 {menuItems.length &&
                  menuItems.map((item, index) => {
                    return (
