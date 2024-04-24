@@ -5,19 +5,21 @@ import "./Header.css";
 const menuItems = [
   {
     label: "Home",
-    url: "/",
+    path: "/",
   },
   {
     label: "About Us",
-    url: "#aboutUs",
+    path: "#aboutUs",
+    
   },
+
   {
     label: "Services",
-    url: "#services",
+    path: "/#services",
   },
   {
     label: "Testimonials",
-    url: "#testimonial",
+    path: "/#testimonial",
   },
 ];
 
@@ -71,7 +73,7 @@ function Header() {
                  menuItems.map((item, index) => {
                    return (
                      <li key={index}>
-                       <NavLink to={item.url} className="font-bold font-[20px] relative transition duration-[0.2s] origin-left before:absolute left-0 before:w-[0%] before:h-[2px] before:bg-[#FF5757] before:bottom-0 before:hover:w-[100%]  ">{item.label}</NavLink>
+                       <NavLink to={item.path} className="font-bold font-[20px] relative transition duration-[0.2s] origin-left before:absolute left-0 before:w-[0%] before:h-[2px] before:bg-[#FF5757] before:bottom-0 before:hover:w-[100%]  ">{item.label}</NavLink>
                      </li>
                    );
                  })}
