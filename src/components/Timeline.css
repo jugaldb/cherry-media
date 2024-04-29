@@ -1,3 +1,19 @@
 .vertical-timeline.vertical-timeline--two-columns:before{
   background-color: #ff5757 !important;
 }
+@media screen and (max-width:1169px) {
+  .horizonCss{
+    display: none;
+  }
+  .verticalCss{
+    display: block;
+  }
+}
+@media screen and (min-width:1170px) {
+  .horizonCss{
+    display: block;
+  }
+  .verticalCss{
+    display: none;
+  }
+}

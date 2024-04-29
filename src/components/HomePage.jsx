@@ -168,11 +168,13 @@ function HeroSection() {
               <div className="details my-3">
                 <p className='text-[#838383]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, recusandae!</p>
               </div>
-
+              <div className="map">
+                 <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.4778740955!2d78.07836522305928!3d17.412733230437688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714030867725!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
             </div>
 
-            <div className='findUs basis-2/4'>
+            <div className='findUs basis-1/4'>
               <div className="footerHeading">
                 <h3 className='font-bold text-[1.5rem]'>Find Us</h3>
               </div>
@@ -191,10 +193,10 @@ function HeroSection() {
               </div>
             </div>
 
-            <div className='contactUs 3/4'>
+            <div className='contactUs basis-3/4'>
 
               <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem]'>Contact Us</h3></div>
-
+{/* 
               <div className="nameInput my-3 flex justify-center max-[520px]:justify-between max-[520px]:flex-col max-[520px]:gap-[20px]">
                 <input className='py-3 px-2 rounded-[2px] me-2 focus:outline-none text-[#838383] max-[520px]:m-0' type="text" placeholder='First Name' />
                 <input className='py-3 px-2 rounded-[2px] focus:outline-none text-[#838383]' type="text" placeholder='Last Name' />
@@ -202,15 +204,19 @@ function HeroSection() {
               <div className="experienceInput text-center my-4">
                 <textarea className='py-3 px-2 rounded-[2px] w-[100%] focus:outline-none text-[#838383] max-[520px]:w-[100%]' type="text" placeholder='Your Experience!' />
               </div>
-              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' ><Link to='/'>Submit</Link></button>
+              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' ><Link to='/'>Submit</Link></button> */}
+              
+
+
+                  <iframe title='form' className='w-[100%] h-[100%]' src="https://docs.google.com/forms/d/e/1FAIpQLSfgwbg1uM_cCDC_lIny3YJwNsuMkVOfFW1ZLQzGOtJU6c4ZaA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" />
+              
+              
+               
             </div>
           </div>
 
 
-
-
-
-          <div className="copyrightInfo flex justify-between">
+          <div className="copyrightInfo flex justify-between pt-6">
             <div className="socialIcons flex justify-start gap-[10px]">
                   <Link className='hover:text-[#0077B5] text-[20px]' to='https://www.linkedin.com/company/cherrymediahouse/' target="_blank"><i className="fa-brands fa-linkedin" /></Link>
                   <Link className='hover:text-[#000] text-[20px]' to='https://twitter.com/TheCherryMediaa'  target="_blank"><i className="fa-brands fa-x-twitter" /></Link>
