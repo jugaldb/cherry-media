@@ -61,16 +61,20 @@ const TestimonialSlider = () => {
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
     const [touchStartX, setTouchStartX] = useState(null);
 
+
+
+
     const testimonials = [
+       
         {
             id: 1,
-            text: "The product is amazing! I've been using it for a month now and I'm really impressed.",
-            author: "John Doe",
+            text: "I never knew a product could make such a difference. It's truly life-changing. I never knew a product could make such a difference. It's truly life-changing.",
+            author: "Youla Sihfa",
             image: "https://via.placeholder.com/250x300"
         },
         {
             id: 2,
-            text: "I never knew a product could make such a difference. It's truly life-changing.",
+            text: "I never knew a product could make such a difference. It's truly life-changing.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quo explicabo fuga suscipit accusantium reprehenderit doloribus dolore beatae iure iusto!",
             author: "Jane Smith",
             image: "https://via.placeholder.com/250x300"
         },
@@ -81,7 +85,6 @@ const TestimonialSlider = () => {
             image: "https://via.placeholder.com/250x300"
         }
     ];
-
     const handleNextTestimonial = () => {
         setCurrentTestimonial((prevTestimonial) => (prevTestimonial === testimonials.length - 1 ? 0 : prevTestimonial + 1));
     };
@@ -122,24 +125,29 @@ const TestimonialSlider = () => {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}>
-            <div className="testimonial flex justify-between mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col">
-                <div className="tstAuthor">
-                    <img src={testimonials[currentTestimonial].image} alt="" />
-                    <p className='text-[20px] font-semibold mt-4'>- {testimonials[currentTestimonial].author}</p>
+                <div className="testimonial flex justify-between mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col">
+                    <div className="tstAuthor w-[50%]">
+                        <img className='w-[250px] h-[300px]' src={testimonials[currentTestimonial].image} alt="" />
+                        <p className='text-[20px] font-semibold mt-4'>- {testimonials[currentTestimonial].author}</p>
+                    </div>
+                    <div className="tstDetails w-[50%]">
+                        <p>{testimonials[currentTestimonial].text}</p>
+                    </div>
                 </div>
-                <div className="tstDetails">
-                    <p>{testimonials[currentTestimonial].text}</p>
+                <div className="dots">
+                    {testimonials.map((testimonial, index) => (
+                        <span
+                            key={testimonial.id}
+                            className={index === currentTestimonial ? 'dot active' : 'dot'}
+                            onClick={() => handleDotClick(index)}
+                        />
+                    ))}
                 </div>
-            </div>
-            <div className="dots">
-                {testimonials.map((testimonial, index) => (
-                    <span
-                        key={testimonial.id}
-                        className={index === currentTestimonial ? 'dot active' : 'dot'}
-                        onClick={() => handleDotClick(index)}
-                    />
-                ))}
-            </div>
+
+                <div className="navArrows">
+                    <i class="fa-solid fa-arrow-left absolute left-0 bg-[#f1f1f1] p-4 rounded-full bottom-[50%] cursor-pointer" onClick={handlePrevTestimonial} />
+                    <i class="fa-solid fa-arrow-right absolute right-0 bg-[#f1f1f1] p-4 rounded-full bottom-[50%] cursor-pointer" onClick={handleNextTestimonial} />
+                </div>
         </div>
 
 
