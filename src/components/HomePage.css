@@ -17,7 +17,18 @@
   color: #ff5757;
   border: 1px solid #ff5757;
 }
-
+.heroImg{
+  transform: translateY(-50%);
+}
+.navArrows .fa-solid{
+  /* transform: translateY(-50%); */
+  /* position: fixed; */
+}
+@media screen and (max-width: 520px){
+  .heroImg{
+    position: relative;
+  }
+}
 .accordion {
   display: flex;
   flex-direction: column;

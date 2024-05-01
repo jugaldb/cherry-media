@@ -145,8 +145,8 @@ const TestimonialSlider = () => {
                 </div>
 
                 <div className="navArrows">
-                    <i class="fa-solid fa-arrow-left absolute left-0 bg-[#f1f1f1] p-4 rounded-full bottom-[50%] cursor-pointer" onClick={handlePrevTestimonial} />
-                    <i class="fa-solid fa-arrow-right absolute right-0 bg-[#f1f1f1] p-4 rounded-full bottom-[50%] cursor-pointer" onClick={handleNextTestimonial} />
+                    <i class="fa-solid fa-arrow-left absolute left-0 bg-[#f1f1f1] p-4 rounded-full top-[130px] cursor-pointer" onClick={handlePrevTestimonial} />
+                    <i class="fa-solid fa-arrow-right absolute right-0 bg-[#f1f1f1] p-4 rounded-full top-[130px] cursor-pointer" onClick={handleNextTestimonial} />
                 </div>
         </div>
 

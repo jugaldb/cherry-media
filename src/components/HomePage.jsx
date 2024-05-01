@@ -21,7 +21,7 @@ function HeroSection() {
             </div>
 
             <div className="heroImgWrapper">
-              <img className='heroImg absolute z-[-1] top-[-54%] right-0 w-[70%] max-[520px]:top-[-10%] max-[520px]:left-[15%] max-[520px]:relative' src="images/market.png" alt="" />
+              <img className='heroImg absolute z-[-1] top-[50%] right-0 w-[70%] max-[520px]:left-[15%] max-[520px]:relative' src="images/market.png" alt="" />
             </div>
           </div>
         </div>
