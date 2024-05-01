@@ -165,6 +165,7 @@ function Timeline() {
             <div className="horizenLine flex justify-around">
               <div className="process relative w-[30px] h-[30px] rounded-[50px] bg-[#1e1e1e]">
                 <div className="processDetails absolute bg-[#ff5757] w-[300px] p-[10px] text-[#fff] rounded-lg top-[-148px] left-[-130px]">
+                <i class="fa-solid fa-caret-down absolute text-[#ff5757] bottom-[-14px] left-[47%] text-[27px]" />
                   <h6 className='mb-2 font-extrabold'>Demo Word Heding</h6>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.</p>
                 </div>
@@ -172,6 +173,7 @@ function Timeline() {
 
               <div className="process relative w-[30px] h-[30px] rounded-[50px] bg-[#1e1e1e]">
                 <div className="processDetails absolute bg-[#ff5757] w-[300px] p-[10px] text-[#fff] rounded-lg bottom-[-148px] left-[-130px]">
+                    <i class="fa-solid fa-caret-down absolute text-[#ff5757] top-[-14px] left-[47%] text-[27px] rotate-180" />
                     <h6 className='mb-2 font-extrabold'>Demo Word Heding</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.</p>
                 </div>
@@ -179,6 +181,8 @@ function Timeline() {
 
               <div className="process relative w-[30px] h-[30px] rounded-[50px] bg-[#1e1e1e]">
                 <div className="processDetails absolute bg-[#ff5757] w-[300px] p-[10px] text-[#fff] rounded-lg top-[-148px] left-[-130px]">
+                <i class="fa-solid fa-caret-down absolute text-[#ff5757] bottom-[-14px] left-[47%] text-[27px]" />
+
                   <h6 className='mb-2 font-extrabold'>Demo Word Heding</h6>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.</p>
                 </div>
@@ -186,6 +190,7 @@ function Timeline() {
               
               <div className="process relative w-[30px] h-[30px] rounded-[50px] bg-[#1e1e1e]">
                 <div className="processDetails absolute bg-[#ff5757] w-[300px] p-[10px] text-[#fff] rounded-lg bottom-[-148px] left-[-130px]">
+                  <i class="fa-solid fa-caret-down absolute text-[#ff5757] top-[-14px] left-[47%] text-[27px] rotate-180" />
                   <h6 className='mb-2 font-extrabold'>Demo Word Heding</h6>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.</p>
                 </div>
@@ -193,6 +198,7 @@ function Timeline() {
 
               <div className="process relative w-[30px] h-[30px] rounded-[50px] bg-[#1e1e1e]">
                 <div className="processDetails absolute bg-[#ff5757] w-[300px] p-[10px] text-[#fff] rounded-lg top-[-148px] left-[-130px]">
+                  <i class="fa-solid fa-caret-down absolute text-[#ff5757] bottom-[-14px] left-[47%] text-[27px]" />
                   <h6 className='mb-2 font-extrabold'>Demo Word Heding</h6>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.</p>
                 </div>
