@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./HomePage.css"
 import TestimonialSlider from './Testimonal';
 import Timeline from './Timeline';
+import Services from './services';
 
 
 function HeroSection() {
@@ -113,12 +114,12 @@ function HeroSection() {
 
       <div className="services py-6" id='services'>
         <div className="container mx-auto">
-          <div className="testi-heading text-center py-6">
+          {/* <div className="testi-heading text-center py-6">
             <h3 className='text-[33px] font-extrabold'>Services</h3>
-          </div>
+          </div> */}
 
 
-          <ul className="serviceItems grid grid-cols-3 gap-x-4 gap-y-4 text-center py-6 relative">
+          {/* <ul className="serviceItems grid grid-cols-3 gap-x-4 gap-y-4 text-center py-6 relative">
               <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
                 <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2">
                   <h4 className='mb-3'>Demo Service</h4>
@@ -144,7 +145,11 @@ function HeroSection() {
               </li>
               <li><Link className='serviceItem' to='/'>Hello WOrk</Link></li>
               
-          </ul>
+          </ul> */}
+
+
+          <Services />
+
         </div>
       </div>
 

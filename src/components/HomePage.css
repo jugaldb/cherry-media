@@ -155,15 +155,11 @@ border-radius: 0px 7px;
 
 .serviceItem{
     background-color: #ff5757;
-    padding: 20px 53px;
+    padding: 2% 5%;
     border-radius: 9px;
     color: #fff;
 }
-@media screen and (max-width:520px){
-  .serviceItem{
-    padding: 10px 15px;
-  }
-}
+
 .serviceItems li{
   margin-bottom: 30px;
 }
