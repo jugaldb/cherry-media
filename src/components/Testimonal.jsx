@@ -125,7 +125,7 @@ const TestimonialSlider = () => {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}>
-                <div className="testimonial flex justify-between mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col">
+                <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[520px]:w-[100%]">
                     <div className="tstAuthor w-[50%]">
                         <img className='w-[250px] h-[300px]' src={testimonials[currentTestimonial].image} alt="" />
                         <p className='text-[20px] font-semibold mt-4'>- {testimonials[currentTestimonial].author}</p>

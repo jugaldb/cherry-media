@@ -13,18 +13,15 @@ function HeroSection() {
     <>
       <div className="heroSectionWrapper max-[420px]:py-2">
         <div className="container mx-auto">
-          <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px] max-[420px]:h-[100%]">
+          <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px] max-[420px]:h-[100%] max-[520px]:flex-col">
             <div className="heroText w-[70%] max-[978px]:text-center max-[978px]:w-[100%]">
-              <h1 className='text-6xl font-extrabold max-[978px]:text-5xl max-[420px]:text-xl max-[420px]:leading-none'>Build Authority.</h1>
               <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize Your <span className='text-[#ff5757] max-[420px]:leading-none'>LinkedIn</span>.</h2>
-              <p className='w-[70%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+              <p className='w-[50%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online.</p>
               <button className='my-6'><Link to='/' className='btn hover:bg-transparent'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
             </div>
 
-            <div className="heroImgWrapper max-[978px]:hidden">
-              <img className='heroImg absolute top-0 right-0 h-[400px]' src="images/hero-image 1.png" alt="" />
-              <img className='absolute top-0 right-[30%]' src="images/test1.png" alt="" />
-              <img className='absolute bottom-[10%] right-[1%]' src="images/test1.png" alt="" />
+            <div className="heroImgWrapper">
+              <img className='heroImg absolute z-[-1] top-[-54%] right-0 w-[70%] max-[520px]:top-[-10%] max-[520px]:left-[15%] max-[520px]:relative' src="images/market.png" alt="" />
             </div>
           </div>
         </div>
@@ -114,7 +111,45 @@ function HeroSection() {
         </div>  
       </div>      
 
-      <div className="FAQwrapper py-6" id='services'>
+      <div className="services py-6" id='services'>
+        <div className="container mx-auto">
+          <div className="testi-heading text-center py-6">
+            <h3 className='text-[33px] font-extrabold'>Services</h3>
+          </div>
+
+
+          <ul className="serviceItems grid grid-cols-3 gap-x-4 gap-y-4 text-center py-6 relative">
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
+                <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2">
+                  <h4 className='mb-3'>Demo Service</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque velit consequatur, sunt incidunt obcaecati, itaque tenetur commodi quaerat illum nostrum accusamus rerum fugit facilis. Est praesentium impedit eaque sit quam dolorum, nemo, quo blanditiis iusto natus reiciendis aspernatur. Aliquid, explicabo at? Similique odio provident veritatis rem velit! Fuga, sunt.</p>
+                </div>
+              </li>
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
+              <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2"><h4 className='mb-3'>Demo Service 2</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque velit consequatur, sunt incidunt obcaecati, itaque tenetur commodi quaerat illum nostrum accusamus rerum fugit facilis. Est praesentium impedit eaque sit quam dolorum, nemo, quo blanditiis iusto natus reiciendis aspernatur. Aliquid, explicabo at? Similique odio provident veritatis rem velit! Fuga, sunt.</p></div>
+              </li>
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
+              <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2"><h4 className='mb-3'>Demo Service 3</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque velit consequatur, sunt incidunt obcaecati, itaque tenetur commodi quaerat illum nostrum accusamus rerum fugit facilis. Est praesentium impedit eaque sit quam dolorum, nemo, quo blanditiis iusto natus reiciendis aspernatur. Aliquid, explicabo at? Similique odio provident veritatis rem velit! Fuga, sunt.</p></div>
+              </li>
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
+              <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2"><h4 className='mb-3'>Demo Service 4</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque velit consequatur, sunt incidunt obcaecati, itaque tenetur commodi quaerat illum nostrum accusamus rerum fugit facilis. Est praesentium impedit eaque sit quam dolorum, nemo, quo blanditiis iusto natus reiciendis aspernatur. Aliquid, explicabo at? Similique odio provident veritatis rem velit! Fuga, sunt.</p></div>
+              
+              </li>
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link>
+              <div className="serviceDetails absolute w-[100%] h-[100%] top-0 left-0 bg-[#ff5757] py-2 px-2"><h4 className='mb-3'>Demo Service 5</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque velit consequatur, sunt incidunt obcaecati, itaque tenetur commodi quaerat illum nostrum accusamus rerum fugit facilis. Est praesentium impedit eaque sit quam dolorum, nemo, quo blanditiis iusto natus reiciendis aspernatur. Aliquid, explicabo at? Similique odio provident veritatis rem velit! Fuga, sunt.</p></div>
+              </li>
+              <li><Link className='serviceItem' to='/'>Hello WOrk</Link></li>
+              
+          </ul>
+        </div>
+      </div>
+
+
+      <div className="FAQwrapper py-6">
         <div className="container mx-auto">
           <div className="accordion">
             <h1 className='py-6 font-extrabold'>Frequently Asked Questions</h1>

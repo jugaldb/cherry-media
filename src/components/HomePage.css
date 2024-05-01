@@ -108,7 +108,7 @@ border-radius: 0px 7px;
 }
 
 .testimonial {
-  width: 60%;
+  
   transition: transform 0.5s ease;
 }
 
@@ -140,4 +140,27 @@ border-radius: 0px 7px;
           /* Also define standard property for compatibility */
           background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.serviceItem{
+    background-color: #ff5757;
+    padding: 20px 53px;
+    border-radius: 9px;
+    color: #fff;
+}
+@media screen and (max-width:520px){
+  .serviceItem{
+    padding: 10px 15px;
+  }
+}
+.serviceItems li{
+  margin-bottom: 30px;
+}
+.serviceDetails{
+  display: none;
+  transition: all 0.8s ease-in-out;
+}
+.serviceItems li:hover .serviceDetails{
+  display: block;
+  color: #fff;
 }
