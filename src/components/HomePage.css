@@ -24,10 +24,18 @@
   /* transform: translateY(-50%); */
   /* position: fixed; */
 }
+/* .heroSectionWrapper{
+  background-image: url('images/market.png');
+  background-position: right;
+} */
 @media screen and (max-width: 520px){
   .heroImg{
     position: relative;
   }
+}
+
+.aboutItem:hover h4::before{
+  background-color: #fff;
 }
 .accordion {
   display: flex;

@@ -4,9 +4,11 @@ import "./HomePage.css"
 import TestimonialSlider from './Testimonal';
 import Timeline from './Timeline';
 import Services from './services';
+import HeroSection from './HeroSection';
 
-
-function HeroSection() {
+ 
+          
+function Main() {
 
 
   
@@ -14,17 +16,7 @@ function HeroSection() {
     <>
       <div className="heroSectionWrapper max-[420px]:py-2">
         <div className="container mx-auto">
-          <div className="heroSection flex justify-between items-center h-screen relative max-[978px]:w-[100%] max-[978px]:h-[600px] max-[420px]:h-[100%] max-[520px]:flex-col">
-            <div className="heroText w-[70%] max-[978px]:text-center max-[978px]:w-[100%]">
-              <h2 className='text-6xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize Your <span className='text-[#ff5757] max-[420px]:leading-none'>LinkedIn</span>.</h2>
-              <p className='w-[50%] my-5 max-[978px]:w-[100%]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online.</p>
-              <button className='my-6'><Link to='/' className='btn hover:bg-transparent'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
-            </div>
-
-            <div className="heroImgWrapper">
-              <img className='heroImg absolute z-[-1] top-[50%] right-0 w-[70%] max-[520px]:left-[15%] max-[520px]:relative' src="images/market.png" alt="" />
-            </div>
-          </div>
+          <HeroSection /> 
         </div>
       </div>
 
@@ -271,4 +263,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection;
+export default Main;
