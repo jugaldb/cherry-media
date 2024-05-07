@@ -1,12 +1,13 @@
 import React from 'react'
-import Main from '../components/HomePage'
+import HomePage from '../components/HomePage'
+
 
 function Home() {
   return (
     <>
-      <Main />
+      <HomePage />
     </>
   )
 }
 
-export default Home
+export default Home;

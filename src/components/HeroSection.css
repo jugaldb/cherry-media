@@ -35,9 +35,6 @@ body {
   }
 } */
 
-main {
-  overflow: hidden;
-}
 
 p {
   text-wrap: balance;
