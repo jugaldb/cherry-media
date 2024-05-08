@@ -4,7 +4,7 @@ import './Timeline.css'
 function Timeline() {
   return (
     <>
-      <main class="processContainer">
+      <main class="processContainer"  data-aos="fade-up">
         <div class="card-wrapper mx-auto">
           <div class="processCard card-discover">
             <div class="card-icon-title-wrapper">
@@ -32,6 +32,48 @@ function Timeline() {
             <p class="card__description">
               We spend time getting to know the user, & understand their needs,
               wants and objectives. This helps us to set aside the assumptions.
+            </p>
+          </div>
+          <div class="processCard card-prototype">
+            <div class="card-icon-title-wrapper">
+              <div class="card__icon">
+                <div class="icon__wrapper">
+                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                </div>
+              </div>
+              <p class="card__title">Prototype</p>
+            </div>
+            <p class="card__description">
+              We implement ideas into tangible forms from paper to digital. We
+              build prototypes to capture design concepts & test on users.
+            </p>
+          </div>
+          <div class="processCard card-prototype">
+            <div class="card-icon-title-wrapper">
+              <div class="card__icon">
+                <div class="icon__wrapper">
+                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                </div>
+              </div>
+              <p class="card__title">Prototype</p>
+            </div>
+            <p class="card__description">
+              We implement ideas into tangible forms from paper to digital. We
+              build prototypes to capture design concepts & test on users.
+            </p>
+          </div>
+          <div class="processCard card-prototype">
+            <div class="card-icon-title-wrapper">
+              <div class="card__icon">
+                <div class="icon__wrapper">
+                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                </div>
+              </div>
+              <p class="card__title">Prototype</p>
+            </div>
+            <p class="card__description">
+              We implement ideas into tangible forms from paper to digital. We
+              build prototypes to capture design concepts & test on users.
             </p>
           </div>
           <div class="processCard card-prototype">

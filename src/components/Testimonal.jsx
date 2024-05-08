@@ -124,7 +124,7 @@ const TestimonialSlider = () => {
         <div className="testimonial-slider"
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
-            onTouchEnd={handleTouchEnd}>
+            onTouchEnd={handleTouchEnd}  data-aos="fade-up">
                 <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[520px]:w-[100%]">
                     <div className="tstAuthor w-[50%]">
                         <img className='w-[250px] h-[300px]' src={testimonials[currentTestimonial].image} alt="" />
@@ -144,9 +144,10 @@ const TestimonialSlider = () => {
                     ))}
                 </div>
 
-                <div className="navArrows">
-                    <i class="fa-solid fa-arrow-left absolute left-0 bg-[#f1f1f1] p-4 rounded-full top-[130px] cursor-pointer" onClick={handlePrevTestimonial} />
-                    <i class="fa-solid fa-arrow-right absolute right-0 bg-[#f1f1f1] p-4 rounded-full top-[130px] cursor-pointer" onClick={handleNextTestimonial} />
+                <div className="navArrows text-[25px]">
+                    <i class="fa-solid fa-chevron-left absolute left-0 p-4 rounded-full top-[130px] cursor-pointer hover:text-[#ff5757] animate-bounce" onClick={handlePrevTestimonial}/>
+                    <i class="fa-solid fa-chevron-right absolute right-0  p-4 rounded-full top-[130px] cursor-pointer hover:text-[#ff5757] animate-bounce" onClick={handleNextTestimonial}/>
+                 
                 </div>
         </div>
 

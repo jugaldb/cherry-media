@@ -20,7 +20,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="aboutUswrapper py-6" id='aboutUs'>
+      <div className="aboutUswrapper py-6" id='aboutUs' data-aos="fade-up">
         <div className="container mx-auto">
           <div className="aboutUs">
             <div className="aboutUsHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
@@ -29,17 +29,17 @@ function HomePage() {
             </div>
 
             <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg hover:bg-[#ff5757] hover:text-[#fff] px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
@@ -49,7 +49,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="achivmentWrapper py-6">
+      <div className="achivmentWrapper py-6" data-aos="fade-up">
         <div className="container mx-auto">
           <div className="achivmentHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
             <h3 className='text-[33px] font-extrabold'>Our Achievement</h3>
@@ -111,35 +111,35 @@ function HomePage() {
       </div>
 
 
-      <div className="FAQwrapper py-6">
+      <div className="FAQwrapper py-6" data-aos="fade-up">
         <div className="container mx-auto">
           <div className="accordion">
             <h1 className='py-6 font-extrabold'>Frequently Asked Questions</h1>
-            <div className="accordion-item">
+            <div className="accordion-item" data-aos="fade-up">
               <input type="checkbox" id="accordion1" />
               <label for="accordion1" className="accordion-item-title bg-[#1e1e1e] text-[#fff]"><span className="icon"></span>What is SEO, and why is it important for online businesses?</label>
               <div className="accordion-item-desc border border-[#1e1e1e]">SEO, or Search Engine Optimization, is the practice of optimizing a website to improve its visibility on search engines like Google. It involves various techniques to enhance a site's ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic, increases visibility, and ultimately leads to higher conversions.</div>
             </div>
 
-            <div className="accordion-item">
+            <div className="accordion-item" data-aos="fade-up">
               <input type="checkbox" id="accordion2" />
               <label for="accordion2" className="accordion-item-title bg-[#1e1e1e] text-[#fff]"><span className="icon"></span>How long does it take to see results from SEO efforts?</label>
               <div className="accordion-item-desc border border-[#1e1e1e]">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
             </div>
 
-            <div className="accordion-item">
+            <div className="accordion-item" data-aos="fade-up">
               <input type="checkbox" id="accordion3" />
               <label for="accordion3" className="accordion-item-title bg-[#1e1e1e] text-[#fff]"><span className="icon"></span>What are the key components of a successful SEO strategy?</label>
               <div className="accordion-item-desc border border-[#1e1e1e]">A successful SEO strategy involves various components, including keyword research, on-page optimization, quality content creation, link building, technical SEO, and user experience optimization. These elements work together to improve a website's relevance and authority in the eyes of search engines.</div>
             </div>
 
-            <div className="accordion-item">
+            <div className="accordion-item" data-aos="fade-up">
               <input type="checkbox" id="accordion4" />
               <label for="accordion4" className="accordion-item-title bg-[#1e1e1e] text-[#fff]"><span className="icon"></span>How does mobile optimization impact SEO?</label>
               <div className="accordion-item-desc border border-[#1e1e1e]">Mobile optimization is crucial for SEO because search engines prioritize mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices are more likely to rank higher in search results.</div>
             </div>
 
-            <div className="accordion-item">
+            <div className="accordion-item" data-aos="fade-up">
               <input type="checkbox" id="accordion5" />
               <label for="accordion5" className="accordion-item-title bg-[#1e1e1e] text-[#fff]"><span className="icon"></span>What is the role of backlinks in SEO, and how can they be acquired?</label>
               <div className="accordion-item-desc border border-[#1e1e1e]">Backlinks, or inbound links from other websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site's authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It's important to focus on natural and ethical link-building practices.</div>
@@ -170,7 +170,7 @@ function HomePage() {
 
             </div>
 
-            <div className='findUs basis-1/4'>
+            <div className='findUs basis-2/4'>
               <div className="footerHeading">
                 <h3 className='font-bold text-[1.5rem]'>Find Us</h3>
               </div>
@@ -189,24 +189,10 @@ function HomePage() {
               </div>
             </div>
 
-            <div className='contactUs basis-3/4'>
+            <div className='contactUs basis-1/4'>
 
               <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem]'>Contact Us</h3></div>
-{/* 
-              <div className="nameInput my-3 flex justify-center max-[520px]:justify-between max-[520px]:flex-col max-[520px]:gap-[20px]">
-                <input className='py-3 px-2 rounded-[2px] me-2 focus:outline-none text-[#838383] max-[520px]:m-0' type="text" placeholder='First Name' />
-                <input className='py-3 px-2 rounded-[2px] focus:outline-none text-[#838383]' type="text" placeholder='Last Name' />
-              </div>
-              <div className="experienceInput text-center my-4">
-                <textarea className='py-3 px-2 rounded-[2px] w-[100%] focus:outline-none text-[#838383] max-[520px]:w-[100%]' type="text" placeholder='Your Experience!' />
-              </div>
-              <button className='btn focus:outline-none hover:text-[#fff] block py-[15px] px-[50px] max-[520px]:inline-block' ><Link to='/'>Submit</Link></button> */}
-              
-
-
-                  <iframe title='form' className='w-[100%] h-[100%]' src="https://docs.google.com/forms/d/e/1FAIpQLSfgwbg1uM_cCDC_lIny3YJwNsuMkVOfFW1ZLQzGOtJU6c4ZaA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" />
-              
-              
+              <button className='btn'><Link to='/contact'>Let's Talk</Link></button>
                
             </div>
           </div>

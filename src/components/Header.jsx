@@ -21,6 +21,10 @@ const menuItems = [
     label: "Testimonials",
     path: "/#testimonial",
   },
+  {
+    label: "Contact Us",
+    path: "/contact",
+  }
 ];
 
 function Header() {

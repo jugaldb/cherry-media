@@ -37,8 +37,8 @@ a {
 
 
 body {
-  @extend .default-spacing;
-  font-family: "DM Sans", sans-serif;
+  /* @extend .default-spacing; */
+  /* font-family: "DM Sans", sans-serif; */
   color:#fff;
   color: var(--color);
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .processContainer {
-  @extend .center-content;
+  /* @extend .center-content; */
   flex-direction: column;
   height: auto;
   padding: 0 50px;
@@ -108,14 +108,17 @@ body {
     }
   }
 }
+.card-wrapper{
+  row-gap: 73px !important;
+}
 
 @media (min-width: 992px) {
   
   .card-wrapper {
     width: 50%;
-
+   
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: min(350px);
+    grid-auto-rows: min(310px);
     gap: 20px;
 
     .processCard {
