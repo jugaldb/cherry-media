@@ -22,26 +22,26 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="aboutUswrapper py-6" id='aboutUs' data-aos="fade-up">
+      <div className="aboutUswrapper py-[30px] max-[520px]:py-[10px]" id='aboutUs' data-aos="fade-up">
         <div className="container mx-auto">
           <div className="aboutUs">
-            <div className="aboutUsHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
+            <div className="aboutUsHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
               <h2 className='text-[33px] font-extrabold'>About Us</h2>
-              <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+              <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
             </div>
 
             <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga architecto labore eius voluptas suscipit doloremque eligendi ipsa quia vero.</p>
               </div>
@@ -51,11 +51,11 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="achivmentWrapper py-6" data-aos="fade-up">
+      <div className="achivmentWrapper py-[30px] max-[520px]:py-[10px]" data-aos="fade-up">
         <div className="container mx-auto">
-          <div className="achivmentHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
+          <div className="achivmentHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
             <h3 className='text-[33px] font-extrabold'>Our Achievement</h3>
-            <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
+            <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
           </div>
 
           {/* <div className="achievements flex justify-around py-6 max-[978px]:flex-col max-[978px]:gap-[25px]">
@@ -90,17 +90,17 @@ function HomePage() {
       </div>
       
 
-      <div className="timelineWrapper">
+      <div className="timelineWrapper py-[30px] max-[520px]:py-[10px]">
         <div className="container mx-auto">
-          <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[320px]:w-[95%]">
+          <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
             <h3 className='text-[33px] font-extrabold'>Our Process</h3>
-            <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus ducimus commodi amet laudantium omnis similique minus, nihil, corporis, enim dolores sit! Nam consequuntur a earum autem, quaerat enim ad?</p>
+            <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus ducimus commodi amet laudantium omnis similique minus, nihil, corporis, enim dolores sit! Nam consequuntur a earum autem, quaerat enim ad?</p>
           </div>
           <Timeline />
         </div>
       </div>
 
-      <div className="testimonialWrapper py-6" id='testimonial'>
+      <div className="testimonialWrapper py-[30px] max-[520px]:py-[10px]" id='testimonial'>
         <div className="container mx-auto">
           <div className="testi-heading text-center py-6">
             <h3 className='text-[33px] font-extrabold'>Testimonials</h3>
@@ -109,14 +109,14 @@ function HomePage() {
         </div>  
       </div>      
 
-      <div className="services py-6" id='services'>
+      <div className="services py-[30px] max-[520px]:py-[10px]" id='services'>
         <div className="container mx-auto">
             <Services />
         </div>
       </div>
 
 
-      <div className="FAQwrapper py-6" data-aos="fade-up">
+      <div className="FAQwrapper py-[30px] max-[520px]:py-[10px]" data-aos="fade-up">
         <div className="container mx-auto">
           <div className="accordion">
             <h1 className='py-6 font-extrabold'>Frequently Asked Questions</h1>

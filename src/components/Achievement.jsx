@@ -67,11 +67,11 @@ const AchievementSection = () => {
   return (
     <div ref={achievementSectionRef} className='py-[50px]'>
       
-      <div className='flex justify-around text-center'>
+      <div className='flex justify-center text-center gap-[25px] max-[520px]:flex-col items-center'>
         {achievements.map((achievement, index) => (
           <div key={index} className='border w-[180px] py-[25px] rounded hover:bg-[#ff5757] hover:text-[#fff]'>
-            <i className={icons[index]} />
-            <p className='font-semibold mb-2 text-[30px]'>{Math.floor(achievement)}</p>
+            <i className={`text-[35px] ${icons[index]}`} />
+            <p className='font-semibold my-2 text-[25px]'>{Math.floor(achievement)}</p>
             <h3 className='font-semibold'>{achievementTitle[index]}</h3>
           </div>
         ))}
