@@ -1,10 +1,12 @@
 import React from 'react'
 
+
 import './Timeline.css'
 function Timeline() {
+  
   return (
     <>
-      <main class="processContainer"  data-aos="fade-up">
+       <main class="processContainer"  data-aos="fade-up">
         <div class="card-wrapper mx-auto">
           <div class="processCard card-discover">
             <div class="card-icon-title-wrapper">
@@ -91,8 +93,9 @@ function Timeline() {
             </p>
           </div>
         </div>
-      </main>
+      </main> 
 
+    
 
     </>
   )

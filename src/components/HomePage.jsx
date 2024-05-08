@@ -5,6 +5,7 @@ import TestimonialSlider from './Testimonal';
 import Timeline from './Timeline';
 import HeroSection from './HeroSection';
 import Services from './services';
+import AchievementSection from './Achievement';
 
 
 
@@ -14,6 +15,7 @@ function HomePage() {
 
   return (
     <div>
+
       <div className="heroSectionWrapper max-[420px]:py-2">
         <div className="container mx-auto">
           <HeroSection /> 
@@ -56,34 +58,37 @@ function HomePage() {
             <p className='max-[978px]:text-[15px] max-[320px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
           </div>
 
-          <div className="achievements flex justify-around py-6 max-[978px]:flex-col max-[978px]:gap-[25px]">
+          {/* <div className="achievements flex justify-around py-6 max-[978px]:flex-col max-[978px]:gap-[25px]">
 
-            <div className="achievement text-center max-[978px]:basis-1/4">
+            <div className="achievement text-center bg-[#fff] flex justify-between gap-[10px] items-center max-[978px]:basis-1/4">
               <i class="fa-regular fa-copy text-[40px]  hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1000+</h6>
               <p>Client Served</p>
             </div>
 
-            <div className="achievement text-center max-[978px]:basis-1/4">
+            <div className="achievement text-center bg-[#fff] flex justify-between gap-[10px] items-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-file-circle-check text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1100+</h6>
               <p>Positive Reviews</p>
             </div>
 
-            <div className="achievement text-center max-[978px]:basis-1/4">
+            <div className="achievement text-center bg-[#fff] flex justify-between gap-[10px] items-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-face-smile text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>100+</h6>
               <p>Team Members</p>
             </div>
 
-            <div className="achievement text-center max-[978px]:basis-1/4">
+            <div className="achievement text-center bg-[#fff] flex justify-between gap-[10px] items-center max-[978px]:basis-1/4">
               <i class="fa-solid fa-group-arrows-rotate text-[40px] hover:text-[#ff5757]" />
               <h6 className='text-[23px] font-extrabold'>1500+</h6>
               <p>Project Completed</p>
             </div>
-          </div>
+          </div> */}
+
+          <AchievementSection />
         </div>
       </div>
+      
 
       <div className="timelineWrapper">
         <div className="container mx-auto">
