@@ -197,8 +197,21 @@ function HomePage() {
             <div className='contactUs basis-1/4'>
 
               <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem]'>Contact Us</h3></div>
-              <button className='btn'><Link to='/contact'>Let's Talk</Link></button>
+              {/* <button className='btn'><Link to='/contact'>Let's Talk</Link></button> */}
                
+               <form action="submit" className='flex justify-between flex-col gap-[20px] mt-5'>
+                <div className="nameField flex justify-between gap-[10px] max-[520px]:flex-col">
+                  <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='First Name' name="firstName" id="" />
+                  <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='Last Name' name="lastName" id="" />
+                </div>
+                <div className="textField">
+                  <textarea className='w-[100%] ps-2 pt-2 rounded bg-[#ffffff17] focus:outline-none' rows="5" placeholder='Share Your Experience' name="textField" id=""></textarea>
+                </div>
+
+                <button className='btn w-[40%]'><Link to='/'>Let's Talk</Link></button>
+
+               </form>
+
             </div>
           </div>
 

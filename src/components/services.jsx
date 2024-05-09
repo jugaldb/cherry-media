@@ -5,9 +5,11 @@ function Services() {
     
 
       <div class="min-h-screen text-center py-20 px-8 xl:px-0 flex flex-col justify-center" data-aos="fade-up">
-        <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">what we're offering
+        <span class="text-gray-400 text-lg max-w-lg mx-auto capitalize flex items-center">what we're offering
         </span>
-        <h1 class="text-[33px] md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">Services Built Specifically for your Business</h1>
+        <div className="services-heading text-center mb-[50px]">
+            <h3 className='text-[33px] font-extrabold'>Services</h3>
+        </div>
         <div class="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
           <div class="card text-black p-10 relative max-[520px]:bg-[#ff5757]">
             <div class="circle">
