@@ -68,9 +68,10 @@ const TestimonialSlider = () => {
        
         {
             id: 1,
-            text: "I never knew a product could make such a difference. It's truly life-changing. I never knew a product could make such a difference. It's truly life-changing.",
-            author: "Youla Sihfa",
-            image: "https://via.placeholder.com/250x300"
+            text: `I had found muskan on LinkedIn for my personal brand development a year back. Working with muskaan for sometime now and she’s one of the most professional individuals I’ve met in this industry. 
+            Her commitment towards quality of work and clarity in communication is something  that has helped us sky rocket our growth and it’s all with the help of Muskan!`,
+            author: "Burhanuddin Abuwala",
+            image: "images/burhan.jpg"
         },
         {
             id: 2,
@@ -127,7 +128,9 @@ const TestimonialSlider = () => {
             onTouchEnd={handleTouchEnd}  data-aos="fade-up">
                 <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[520px]:w-[100%]">
                     <div className="tstAuthor w-[50%]">
-                        <img className='w-[250px] h-[300px]' src={testimonials[currentTestimonial].image} alt="" />
+                        <div className="imgCover w-[250px] h-[300px]">
+                            <img className='w-[100%] h-[100%]' src={testimonials[currentTestimonial].image} alt="" />
+                        </div>
                         <p className='text-[20px] font-semibold mt-4'>- {testimonials[currentTestimonial].author}</p>
                     </div>
                     <div className="tstDetails w-[50%]">

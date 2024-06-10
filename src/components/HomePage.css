@@ -79,7 +79,7 @@
   opacity: 0;
 }
 .accordion-item-desc{
-border-radius: 0px 7px;
+border-radius: 0px 0px 7px 7px;
 }
 .accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
   display: block;
