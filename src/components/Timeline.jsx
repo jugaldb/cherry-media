@@ -1,7 +1,6 @@
 import React from 'react'
-
-
 import './Timeline.css'
+
 function Timeline() {
   
   return (
@@ -57,11 +56,10 @@ function Timeline() {
                   <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
                 </div>
               </div>
-              <p class="card__title">Prototype</p>
+              <p class="card__title">Optimize</p>
             </div>
             <p class="card__description">
-              We implement ideas into tangible forms from paper to digital. We
-              build prototypes to capture design concepts & test on users.
+            We constantly analyze performance and make data-driven adjustments to ensure continuous improvement and growth.
             </p>
           </div>
           <div class="processCard card-prototype">
@@ -71,11 +69,10 @@ function Timeline() {
                   <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
                 </div>
               </div>
-              <p class="card__title">Prototype</p>
+              <p class="card__title">Scale</p>
             </div>
             <p class="card__description">
-              We implement ideas into tangible forms from paper to digital. We
-              build prototypes to capture design concepts & test on users.
+            We help you scale successful strategies to maximize your social media impact and business growth
             </p>
           </div>
           <div class="processCard card-prototype">
@@ -85,11 +82,10 @@ function Timeline() {
                   <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
                 </div>
               </div>
-              <p class="card__title">Prototype</p>
+              <p class="card__title">Support</p>
             </div>
             <p class="card__description">
-              We implement ideas into tangible forms from paper to digital. We
-              build prototypes to capture design concepts & test on users.
+            We provide ongoing support and insights to keep your social media presence dynamic and effective.
             </p>
           </div>
         </div>
