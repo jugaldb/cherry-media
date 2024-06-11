@@ -6,6 +6,7 @@ import Timeline from './Timeline';
 import HeroSection from './HeroSection';
 import Services from './services';
 import AchievementSection from './Achievement';
+import GoToTop from './GoToTop';
 
 
 
@@ -15,6 +16,8 @@ function HomePage() {
 
   return (
     <div>
+      <GoToTop />
+
 
       <div className="heroSectionWrapper max-[420px]:py-2">
         <div className="container mx-auto">
@@ -32,7 +35,7 @@ function HomePage() {
 
             <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
               <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
-                <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who we are?</h4>
+                <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who are we?</h4>
                 <p>Cherrymedia is a team of passionate social media experts who understand the art and science of online engagement.</p>
               </div>
 
@@ -94,7 +97,7 @@ function HomePage() {
         <div className="container mx-auto">
           <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
             <h3 className='text-[33px] font-extrabold'>Our Process</h3>
-            <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus ducimus commodi amet laudantium omnis similique minus, nihil, corporis, enim dolores sit! Nam consequuntur a earum autem, quaerat enim ad?</p>
+            <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>We help you by providing personalised plans to grow on LinkedIn, Instagram and Twitter with expert strategies to boost engagement and drive business growth.</p>
           </div>
           <Timeline />
         </div>
@@ -167,7 +170,7 @@ function HomePage() {
               </div>
 
               <div className="details my-3">
-                <p className='text-[#838383]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, recusandae!</p>
+                <p className='text-[#838383]'>We are a social media management agency specializing in LinkedIn, Instagram and Twitter.</p>
               </div>
               <div className="map">
                  <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.4778740955!2d78.07836522305928!3d17.412733230437688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1714030867725!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -220,7 +223,7 @@ function HomePage() {
             <div className="socialIcons flex justify-start gap-[10px]">
                   <Link className='hover:text-[#0077B5] text-[20px]' to='https://www.linkedin.com/company/cherrymediahouse/' target="_blank"><i className="fa-brands fa-linkedin" /></Link>
                   <Link className='hover:text-[#000] text-[20px]' to='https://twitter.com/TheCherryMediaa'  target="_blank"><i className="fa-brands fa-x-twitter" /></Link>
-                  <Link className='text-[20px]' to='/' target="_blank"><i className="fa-brands fa-instagram" /></Link>
+                  <Link className='text-[20px]' to='https://www.linkedin.com/company/cherrymediahouse/' target="_blank"><i className="fa-brands fa-instagram" /></Link>
             </div>
             <div className="copyRight">Copyright &copy; Cherry Media</div>
           </div>

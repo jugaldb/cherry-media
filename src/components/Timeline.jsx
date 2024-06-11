@@ -53,7 +53,7 @@ function Timeline() {
             <div class="card-icon-title-wrapper">
               <div class="card__icon">
                 <div class="icon__wrapper">
-                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                <i className="fa-solid fa-gear" />
                 </div>
               </div>
               <p class="card__title">Optimize</p>
@@ -66,7 +66,7 @@ function Timeline() {
             <div class="card-icon-title-wrapper">
               <div class="card__icon">
                 <div class="icon__wrapper">
-                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center" />
                 </div>
               </div>
               <p class="card__title">Scale</p>
@@ -79,7 +79,7 @@ function Timeline() {
             <div class="card-icon-title-wrapper">
               <div class="card__icon">
                 <div class="icon__wrapper">
-                  <i class="fas fa-7x fa-pencil-ruler icon__prototype"></i>
+                <i class="fa-solid fa-headset" />
                 </div>
               </div>
               <p class="card__title">Support</p>

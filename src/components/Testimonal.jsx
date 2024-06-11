@@ -68,10 +68,10 @@ const TestimonialSlider = () => {
        
         {
             id: 1,
-            text: `I had found muskan on LinkedIn for my personal brand development a year back. Working with muskaan for sometime now and she’s one of the most professional individuals I’ve met in this industry. 
+            text: `I had found Muskan on LinkedIn for my personal brand development a year back. Working with Muskan for sometime now and she’s one of the most professional individuals I’ve met in this industry. 
             Her commitment towards quality of work and clarity in communication is something  that has helped us sky rocket our growth and it’s all with the help of Muskan!`,
             author: "Burhanuddin Abuwala",
-            position:"Part time Photographer",
+            position:"CEO of Abuwala & Co.",
             image: "images/burhan.jpg"
         },
         {

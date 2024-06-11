@@ -30,6 +30,9 @@
 .aboutItem:hover h4::before{
   background-color: #fff;
 }
+.aboutItem{
+  width:33%
+}
 .accordion {
   display: flex;
   flex-direction: column;
