@@ -129,7 +129,7 @@ const TestimonialSlider = () => {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd}  data-aos="fade-up">
-                <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[520px]:w-[100%]">
+                <div className="testimonial flex justify-between w-[80%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[520px]:w-[100%]">
                     <div className="tstAuthor w-[50%]">
                         <div className="imgCover w-[250px] h-[300px] max-[520px]:w-[147px] max-[520px]:h-[147px]">
                             <img className='w-[100%] h-[100%] object-cover' src={testimonials[currentTestimonial].image} alt="" />

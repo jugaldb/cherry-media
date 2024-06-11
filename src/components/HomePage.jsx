@@ -34,17 +34,17 @@ function HomePage() {
             </div>
 
             <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who are we?</h4>
                 <p>Cherry Media is a team of passionate social media experts who understand the art and science of online engagement.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Our expertise</h4>
                 <p>With a team of experts, Cherry Media offers personalised strategies that elevate your online presence, from crafting engaging content to expanding your network. We got you all.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none">
+              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Why choose us?</h4>
                 <p>We understand the differences between each platform and how to leverage them for maximum impact. Our tailored approach ensures that your social media profiles stand out and drive real, measurable results.</p>
               </div>
@@ -158,9 +158,9 @@ function HomePage() {
       </div>
 
 
-      <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px]">
+      <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px] max-[778px]:px-[20px]">
         <div className="container mx-auto">
-          <div className="footer flex justify-between gap-[100px] py-6 max-[520px]:flex-col">
+          <div className="footer flex justify-between gap-[100px] py-6 max-[520px]:flex-col max-[778px]:flex-col">
 
             <div className='companyDetails basis-2/4'>
               <div className="logo">
@@ -199,11 +199,11 @@ function HomePage() {
 
             <div className='contactUs basis-1/4'>
 
-              <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem]'>Contact Us</h3></div>
+              <div className="footerHeading max-[520px]:text-start"><h3 className='font-bold text-[1.5rem] '>Contact Us</h3></div>
               {/* <button className='btn'><Link to='/contact'>Let's Talk</Link></button> */}
                
                <form action="submit" className='flex justify-between flex-col gap-[20px] mt-5'>
-                <div className="nameField flex justify-between gap-[10px] max-[520px]:flex-col">
+                <div className="nameField flex justify-between gap-[10px] max-[520px]:flex-col max-[778px]:flex-col">
                   <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='First Name' name="firstName" id="" />
                   <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='Last Name' name="lastName" id="" />
                 </div>
