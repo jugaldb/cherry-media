@@ -38,6 +38,11 @@
     width:100%
   }
 }
+@media screen and (max-width: 778px){
+  .aboutItem{
+    width:80%
+  }
+}
 
 .accordion {
   display: flex;
