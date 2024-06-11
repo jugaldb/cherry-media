@@ -6,8 +6,8 @@ const AchievementSection = () => {
   const [isIntersecting, setIsIntersecting] = useState(false); // State to track if the section is intersecting
 
   useEffect(() => {
-    const targetAchievements = [40, 95, 4, 48]; // Target achievement numbers
-    const incrementInterval = 10; // Increment interval in milliseconds
+    const targetAchievements = [40, 98, 4, 48]; // Target achievement numbers
+    const incrementInterval = 5; // Increment interval in milliseconds
     const maxCount = 325; // Maximum count to reach
     const incrementAmounts = targetAchievements.map(target => target / maxCount);
 

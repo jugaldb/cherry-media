@@ -33,6 +33,12 @@
 .aboutItem{
   width:33%
 }
+@media screen and (max-width: 520px){
+  .aboutItem{
+    width:100%
+  }
+}
+
 .accordion {
   display: flex;
   flex-direction: column;

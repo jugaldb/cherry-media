@@ -77,9 +77,9 @@ const TestimonialSlider = () => {
         {
             id: 2,
             text: "I never knew a product could make such a difference. It's truly life-changing.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quo explicabo fuga suscipit accusantium reprehenderit doloribus dolore beatae iure iusto!",
-            author: "Jane Smith",
-            position:"Part time Photographer",
-            image: "https://via.placeholder.com/250x300"
+            author: "Alok Verma",
+            position:" CEO & Founder of Success Tea Consultants",
+            image: "images/alok.jpg"
         },
         {
             id: 3,
