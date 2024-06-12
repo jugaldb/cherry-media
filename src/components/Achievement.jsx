@@ -61,7 +61,7 @@ const AchievementSection = () => {
 
 
 
-    const achievementTitle = ["+ Client Served", "% Positive Reviews", "Team Members", "Project Completed"]
+    const achievementTitle = ["Clients Served", "Positive Reviews", "Team Members", "Project Completed"]
     const icons = ["fa-regular fa-copy", "fa-solid fa-file-circle-check", "fa-solid fa-face-smile", "fa-solid fa-group-arrows-rotate"]
 
   return (
@@ -71,7 +71,7 @@ const AchievementSection = () => {
         {achievements.map((achievement, index) => (
           <div key={index} className='border w-[180px] py-[25px] rounded hover:bg-[#ff5757] hover:text-[#fff]'>
             <i className={`text-[35px] ${icons[index]}`} />
-            <p className='font-semibold my-2 text-[25px]'>{Math.floor(achievement)}</p>
+            <p className='font-semibold my-2 text-[25px]'>{Math.floor(achievement)}{index === 1 ? '%' : ''} {index === 0 ? '+' : ''}</p>
             <h3 className='font-semibold'>{achievementTitle[index]}</h3>
           </div>
         ))}

@@ -3,24 +3,36 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
 const menuItems = [
-  {
-    label: "Home",
-    path: "/",
-  },
+  
   {
     label: "About Us",
     path: "#aboutUs",
     
   },
+  {
+    label: "Achievements",
+    path: "#ourAchievements",
+    
+  },
+  {
+    label: "Process",
+    path: "#ourProcess",
+    
+  },
 
+  {
+    label: "Testimonials",
+    path: "/#testimonial",
+  },
   {
     label: "Services",
     path: "/#services",
   },
   {
-    label: "Testimonials",
-    path: "/#testimonial",
+    label: "FAQ",
+    path: "/#faq",
   },
+  
 
 ];
 

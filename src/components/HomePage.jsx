@@ -25,6 +25,7 @@ function HomePage() {
         </div>
       </div>
 
+
       <div className="aboutUswrapper py-[30px] max-[520px]:py-[10px]" id='aboutUs' data-aos="fade-up">
         <div className="container mx-auto">
           <div className="aboutUs">
@@ -34,17 +35,17 @@ function HomePage() {
             </div>
 
             <div className="aboutUsItems flex justify-between gap-[35px] py-6 max-[978px]:flex-col">
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
+              <div className="aboutItem bg-[#f3f3f3] px-[20px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Who are we?</h4>
                 <p>Cherry Media is a team of passionate social media experts who understand the art and science of online engagement.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
+              <div className="aboutItem bg-[#f3f3f3] px-[20px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Our expertise</h4>
                 <p>With a team of experts, Cherry Media offers personalised strategies that elevate your online presence, from crafting engaging content to expanding your network. We got you all.</p>
               </div>
 
-              <div className="aboutItem bg-[#f3f3f3] px-[10px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
+              <div className="aboutItem bg-[#f3f3f3] px-[20px] py-[25px] pt-[55px] rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ff5757] hover:text-[#fff] duration-300 px-6 max-[520px]:hover:transform-none max-[778px]:mx-auto">
                 <h4 className='text-[25px] font-extrabold relative before:absolute before:w-[40px] before:h-[1px] before:bg-[#ff5757] before:top-[-6px]'>Why choose us?</h4>
                 <p>We understand the differences between each platform and how to leverage them for maximum impact. Our tailored approach ensures that your social media profiles stand out and drive real, measurable results.</p>
               </div>
@@ -54,10 +55,10 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="achivmentWrapper py-[30px] max-[520px]:py-[10px]" data-aos="fade-up">
+      <div className="achivmentWrapper py-[30px] max-[520px]:py-[10px]"  id='ourAchievements' data-aos="fade-up">
         <div className="container mx-auto">
           <div className="achivmentHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
-            <h3 className='text-[33px] font-extrabold'>Our Achievement</h3>
+            <h3 className='text-[33px] font-extrabold'>Our Achievements</h3>
             <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>Get the free Newsletter helping 7,500+ Service-Based Biz Owners build Authority online, turn LinkedIn into a 6-figure revenue channel, and create the life & business they love to wake up to.</p>
           </div>
 
@@ -93,7 +94,7 @@ function HomePage() {
       </div>
       
 
-      <div className="timelineWrapper py-[30px] max-[520px]:py-[10px]">
+      <div className="timelineWrapper py-[30px] max-[520px]:py-[10px]" id='ourProcess'>
         <div className="container mx-auto">
           <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
             <h3 className='text-[33px] font-extrabold'>Our Process</h3>
@@ -119,7 +120,7 @@ function HomePage() {
       </div>
 
 
-      <div className="FAQwrapper py-[30px] max-[520px]:py-[10px]" data-aos="fade-up">
+      <div className="FAQwrapper py-[30px] max-[520px]:py-[10px]" data-aos="fade-up" id="faq">
         <div className="container mx-auto">
           <div className="accordion">
             <h1 className='py-6 font-extrabold'>Frequently Asked Questions</h1>
