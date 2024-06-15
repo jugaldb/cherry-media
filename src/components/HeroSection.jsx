@@ -13,7 +13,7 @@ function HeroSection() {
               <div class="banner-inner max-[978px]:w-[100%]">
               <h2 className='text-5xl font-extrabold mt-2 max-[978px]:text-5xl max-[420px]:text-xl'>Monetize Your <span className='text-[#ff5757] max-[420px]:leading-none'>social media</span>.</h2>
               <p className='w-[100%] my-5 max-[978px]:w-[100%]'>Let <strong>Cherry Media</strong> transform your LinkedIn, Instagram, and Twitter into powerful revenue streams.</p>
-              <button className='my-6'><Link to='/' className='btn hover:bg-transparent'>Contact Us <i className="fa-solid fa-arrow-right ms-2" /></Link></button>
+              <button className='my-6'><Link to='https://calendly.com/muskan-thecherrymedia' target='_blank' className='btn hover:bg-transparent'>schedule a call<i class="fa-solid fa-phone ms-2" /></Link></button>
               </div>
             </div>
         </div>

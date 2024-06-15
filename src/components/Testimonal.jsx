@@ -138,15 +138,15 @@ const TestimonialSlider = () => {
             id: 2,
             text: "I never knew a product could make such a difference. It's truly life-changing. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quo explicabo fuga suscipit accusantium reprehenderit doloribus dolore beatae iure iusto!",
             author: "Alok Verma",
-            position: "CEO & Founder of Success Tea Consultants",
+            position: "CEO of Success Tea Consultants",
             video: "images/alok.mp4",
         },
         {
             id: 3,
             text: "I never knew a product could make such a difference. It's truly life-changing.",
-            author: "Jeet Das",
-            position: "Part-time Photographer",
-            image: "https://via.placeholder.com/250x300",
+            author: "Adithya Pandravada",
+            position: "Founder @Pinkmoongifts",
+            image: "images/adi.jfif",
         },
     ];
 
@@ -202,10 +202,10 @@ const TestimonialSlider = () => {
                             </video>
                         )}
                     </div>
-                    <p className='text-[20px] font-semibold mt-4'>- {testimonials[currentTestimonial].author}</p>
-                    <p className='text-[15px]'>- {testimonials[currentTestimonial].position}</p>
+                    <p className='text-[20px] font-semibold mt-4 max-[668px]:text-[14px]'>- {testimonials[currentTestimonial].author}</p>
+                    <p className='text-[15px] max-[668px]:text-[12px]'>- {testimonials[currentTestimonial].position}</p>
                 </div>
-                <div className="tstDetails w-[50%]">
+                <div className="tstDetails w-[50%] max-[668px]:text-[12px]">
                     <p>{testimonials[currentTestimonial].text}</p>
                 </div>
             </div>

@@ -161,7 +161,7 @@ function HomePage() {
 
       <div className="footerWrapper bg-[#161616] text-[#fff] py-6 max-[520px]:px-[20px] max-[778px]:px-[20px]">
         <div className="container mx-auto">
-          <div className="footer flex justify-between gap-[100px] py-6 max-[520px]:flex-col max-[778px]:flex-col">
+          <div className="footer flex justify-between gap-[100px] py-6 max-[1300px]:flex-col max-[778px]:flex-col">
 
             <div className='companyDetails basis-2/4'>
               <div className="logo">
@@ -204,7 +204,7 @@ function HomePage() {
               {/* <button className='btn'><Link to='/contact'>Let's Talk</Link></button> */}
                
                <form action="submit" className='flex justify-between flex-col gap-[20px] mt-5'>
-                <div className="nameField flex justify-between gap-[10px] max-[520px]:flex-col max-[778px]:flex-col">
+                <div className="nameField flex justify-between gap-[10px] max-[1300px]:flex-col max-[778px]:flex-col">
                   <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='First Name' name="firstName" id="" />
                   <input type="text" className='py-3 rounded ps-2 bg-[#ffffff17] focus:outline-none' placeholder='Last Name' name="lastName" id="" />
                 </div>
