@@ -190,9 +190,9 @@ const TestimonialSlider = () => {
             onTouchStart={handleTouchStart}
             onTouchMove={handleTouchMove}
             onTouchEnd={handleTouchEnd} data-aos="fade-up">
-            <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[1000px]:w-[80%] max-[520px]:w-[100%]">
-                <div className="tstAuthor w-[50%]">
-                    <div className="imgCover w-[250px] h-[300px] max-[520px]:w-[147px] max-[520px]:h-[147px]">
+            <div className="testimonial flex justify-between w-[60%] mx-auto gap-[25px] items-center py-6 max-[978px]:flex-col max-[1000px]:w-[80%] max-[520px]:w-[100%] max-[520px]:text-center">
+                <div className="tstAuthor w-[50%] max-[520px]:w-[80%]">
+                    <div className="imgCover w-[250px] h-[300px] max-[520px]:w-[147px] max-[520px]:mx-auto max-[520px]:h-[147px]">
                         {testimonials[currentTestimonial].image ? (
                             <img className='w-[100%] h-[100%] object-cover' src={testimonials[currentTestimonial].image} alt={testimonials[currentTestimonial].author} />
                         ) : (
@@ -205,7 +205,7 @@ const TestimonialSlider = () => {
                     <p className='text-[20px] font-semibold mt-4 max-[668px]:text-[14px]'>{testimonials[currentTestimonial].author}</p>
                     <p className='text-[15px] max-[668px]:text-[12px]'>{testimonials[currentTestimonial].position}</p>
                 </div>
-                <div className="tstDetails w-[50%] max-[668px]:text-[12px]">
+                <div className="tstDetails w-[50%] max-[520px]:w-[80%] max-[668px]:text-[12px]">
                     <p>{testimonials[currentTestimonial].text}</p>
                 </div>
             </div>
