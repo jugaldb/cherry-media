@@ -146,7 +146,7 @@ const TestimonialSlider = () => {
             text: "I never knew a product could make such a difference. It's truly life-changing.",
             author: "Adithya Pandravada",
             position: "Founder @Pinkmoongifts",
-            image: "images/adi.jfif",
+            image: "images/adithya.jpeg",
         },
     ];
 
@@ -202,8 +202,8 @@ const TestimonialSlider = () => {
                             </video>
                         )}
                     </div>
-                    <p className='text-[20px] font-semibold mt-4 max-[668px]:text-[14px]'>- {testimonials[currentTestimonial].author}</p>
-                    <p className='text-[15px] max-[668px]:text-[12px]'>- {testimonials[currentTestimonial].position}</p>
+                    <p className='text-[20px] font-semibold mt-4 max-[668px]:text-[14px]'>{testimonials[currentTestimonial].author}</p>
+                    <p className='text-[15px] max-[668px]:text-[12px]'>{testimonials[currentTestimonial].position}</p>
                 </div>
                 <div className="tstDetails w-[50%] max-[668px]:text-[12px]">
                     <p>{testimonials[currentTestimonial].text}</p>
