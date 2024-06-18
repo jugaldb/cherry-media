@@ -148,6 +148,13 @@ const TestimonialSlider = () => {
             position: "Founder @Pinkmoongifts",
             image: "images/adithya.jpeg",
         },
+        {
+            id: 4,
+            text: "I never knew a product could make such a difference. It's truly life-changing.",
+            author: "Tirath Doshi",
+            position: "Head - UL & Term Agency @Bajaj",
+            image: "images/tirath.heic",
+        },
     ];
 
     const handleNextTestimonial = () => {

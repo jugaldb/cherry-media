@@ -7,7 +7,7 @@ const AchievementSection = () => {
 
   useEffect(() => {
     const targetAchievements = [40, 98, 4, 48]; // Target achievement numbers
-    const incrementInterval = 5; // Increment interval in milliseconds
+    const incrementInterval = 2; // Increment interval in milliseconds
     const maxCount = 325; // Maximum count to reach
     const incrementAmounts = targetAchievements.map(target => target / maxCount);
 
