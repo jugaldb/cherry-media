@@ -153,7 +153,7 @@ const TestimonialSlider = () => {
             text: "I never knew a product could make such a difference. It's truly life-changing.",
             author: "Tirath Doshi",
             position: "Head - UL & Term Agency @Bajaj",
-            image: "images/tirath.heic",
+            image: "images/tirath.jpg",
         },
     ];
 
