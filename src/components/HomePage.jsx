@@ -7,6 +7,7 @@ import HeroSection from './HeroSection';
 import Services from './services';
 import AchievementSection from './Achievement';
 import GoToTop from './GoToTop';
+import ToolsWeUse from './ToolsWeUse';
 
 
 
@@ -155,6 +156,16 @@ function HomePage() {
             </div>
 
           </div>
+        </div>
+      </div>
+
+      <div className="timelineWrapper py-[30px] max-[520px]:py-[10px]" id='ourProcess'>
+        <div className="container mx-auto">
+          <div className="workProcessHeading text-center w-[80%] mx-auto py-6 max-[520px]:w-[100%]">
+            <h3 className='text-[33px] font-extrabold'>Tools we use</h3>
+            <p className='max-[978px]:text-[15px] max-[520px]:text-[10px]'>We are proud to use the industry standard tools for needs of our customers</p>
+          </div>
+          <ToolsWeUse />
         </div>
       </div>
 
